@@ -17,7 +17,7 @@
 
 <br/>
 
-[📱 Descargar APK](#instalación) · [✨ Ver Funcionalidades](#funcionalidades) · [🏗️ Arquitectura](#arquitectura) · [📸 Capturas](#capturas-de-pantalla)
+[📱 Descargar APK](#instalación) · [✨ Ver Funcionalidades](#funcionalidades) · [🏗️ Arquitectura](#arquitectura)
 
 </div>
 
@@ -67,32 +67,6 @@ FitTimer resuelve eso combinando cuatro herramientas en una sola aplicación gra
 - Registro con validación de contraseña (mínimo 8 caracteres, hash SHA-256)
 - Control de nombres de usuario únicos
 - Cierre de sesión accesible desde el icono de usuario en cualquier pantalla
-
----
-
-## 📸 Capturas de Pantalla
-
-> *Próximamente — sube tus capturas a una carpeta `/screenshots` del repositorio y reemplaza estas líneas*
-
-```
-screenshots/
-├── login.png
-├── registro.png
-├── imc.png
-├── home_horario.png
-├── asistente_ia.png
-├── alimentacion.png
-└── progreso.png
-```
-
-<!-- Cuando tengas las capturas, descomenta esto y ajusta las rutas:
-<div align="center">
-<img src="screenshots/login.png" width="22%"/>
-<img src="screenshots/home_horario.png" width="22%"/>
-<img src="screenshots/asistente_ia.png" width="22%"/>
-<img src="screenshots/alimentacion.png" width="22%"/>
-</div>
--->
 
 ---
 
