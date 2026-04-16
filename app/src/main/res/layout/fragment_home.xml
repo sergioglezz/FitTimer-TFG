@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Cardview"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="10dp"
+        app:cardBackgroundColor="#84B8D9"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:gravity="center|top">
+
+                <TextView
+                    android:id="@+id/textViewL"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="@font/dela_gothic_one"
+                    android:gravity="center"
+                    android:text="L"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewM"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="@font/dela_gothic_one"
+                    android:gravity="center"
+                    android:text="M"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewX"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="@font/dela_gothic_one"
+                    android:gravity="center"
+                    android:text="X"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewJ"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="@font/dela_gothic_one"
+                    android:gravity="center"
+                    android:text="J"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewV"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="@font/dela_gothic_one"
+                    android:gravity="center"
+                    android:text="V"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewS"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="@font/dela_gothic_one"
+                    android:gravity="center"
+                    android:text="S"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewD"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/dela_gothic_one"
+                    android:gravity="center"
+                    android:text="D"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardViewLunes"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:backgroundTint="#4D99C9"
+                    android:clickable="true"
+                    android:focusable="true" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardViewMartes"
+                    android:layout_width="47dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:backgroundTint="#FF4D99C9"
+                    android:clickable="true"
+                    android:focusable="true" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardViewMiercoles"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:backgroundTint="#FF4D99C9"
+                    android:clickable="true"
+                    android:focusable="true" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardViewJueves"
+                    android:layout_width="51dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:backgroundTint="#FF4D99C9"
+                    android:clickable="true"
+                    android:focusable="true" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardViewViernes"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:backgroundTint="#FF4D99C9"
+                    android:clickable="true"
+                    android:focusable="true" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardViewSabado"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:backgroundTint="#1775AF"
+                    android:clickable="true"
+                    android:focusable="true" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardViewDomingo"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#1775AF"
+                    android:clickable="true"
+                    android:focusable="true" />
+
+            </TableRow>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView12000"
+        android:layout_width="350dp"
+        android:layout_height="225dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        app:cardBackgroundColor="#84B8D9"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cardview">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:baselineAligned="false"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:gravity="center|top">
+
+                <TextView
+                    android:id="@+id/textViewPecho"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/dela_gothic_one"
+                    android:gravity="center"
+                    android:text="Pecho"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewEspalda"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/dela_gothic_one"
+                    android:gravity="center"
+                    android:text="Espalda"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewPierna"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/dela_gothic_one"
+                    android:gravity="center"
+                    android:text="Pierna"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewBrazo"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/dela_gothic_one"
+                    android:gravity="center"
+                    android:text="Brazo"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardviewPecho"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#4D99C9"
+                    android:clickable="false"
+                    android:tag="pecho">
+
+                    <ImageView
+                        android:id="@+id/imageViewPecho"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:contentDescription="pecho"
+                        android:focusable="true"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/pecho_icon"
+                        android:tag="pecho" />
+                </androidx.cardview.widget.CardView>
+
+                <Space
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardviewEspalda"
+                    android:layout_width="47dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#FF4D99C9"
+                    android:clickable="false">
+
+                    <ImageView
+                        android:id="@+id/imageViewEspalda"
+                        android:layout_width="49dp"
+                        android:layout_height="53dp"
+                        android:clickable="true"
+                        android:contentDescription="espalda"
+                        android:focusable="true"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/espalda_icon"
+                        android:tag="espalda" />
+                </androidx.cardview.widget.CardView>
+
+                <Space
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardviewPierna"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#FF4D99C9"
+                    android:clickable="false">
+
+                    <ImageView
+                        android:id="@+id/imageViewPierna"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:contentDescription="pierna"
+                        android:focusable="true"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/pierna_icon"
+                        android:tag="pierna" />
+                </androidx.cardview.widget.CardView>
+
+                <Space
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardviewBrazo"
+                    android:layout_width="51dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#FF4D99C9"
+                    android:clickable="false">
+
+                    <ImageView
+                        android:id="@+id/imageViewBrazo"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:contentDescription="brazo"
+                        android:focusable="true"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/brazo_icon"
+                        android:tag="brazo" />
+                </androidx.cardview.widget.CardView>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:gravity="center|top">
+
+                <TextView
+                    android:id="@+id/textViewPush"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/dela_gothic_one"
+                    android:gravity="center"
+                    android:text="Push"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewPull"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/dela_gothic_one"
+                    android:gravity="center"
+                    android:text="Pull"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardviewPush"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#FF4D99C9"
+                    android:clickable="false">
+
+                    <ImageView
+                        android:id="@+id/imageViewPush"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:contentDescription="pierna"
+                        android:focusable="true"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/push_icon"
+                        android:tag="pierna" />
+                </androidx.cardview.widget.CardView>
+
+                <Space
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardviewPull"
+                    android:layout_width="51dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#FF4D99C9"
+                    android:clickable="false">
+
+                    <ImageView
+                        android:id="@+id/imageViewPull"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:contentDescription="brazo"
+                        android:focusable="true"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/pull_icon"
+                        android:tag="brazo" />
+                </androidx.cardview.widget.CardView>
+
+            </TableRow>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/buttonLimpiarDias"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_edittext_background"
+        android:backgroundTint="#80FFFFFF"
+        android:fontFamily="@font/amiko_bold"
+        android:gravity="center"
+        android:text="Limpiar Dias"
+        android:textColor="#FEFEFE"
+        android:textSize="20sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView12000" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

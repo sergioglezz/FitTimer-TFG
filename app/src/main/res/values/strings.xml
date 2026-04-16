@@ -1,0 +1,186 @@
+<resources>
+    <string name="app_name">FitTimer-ProyectoFinal</string>
+    <string name="title_bajo_peso">Bajo peso</string>
+    <string name="description_bajo_peso">Estás por debajo de lo óptimo para tu peso y altura.</string>
+
+    <string name="title_peso_normal">Normal</string>
+    <string name="description_peso_normal">Estás en lo óptimo para tu peso y altura.</string>
+
+    <string name="title_sobrepeso">Sobrepeso</string>
+    <string name="description_sobrepeso">Estás por encima de lo óptimo para tu peso y altura.</string>
+
+    <string name="title_obesidad">Obesidad</string>
+    <string name="description_obesidad">Estás MUY por encima de lo óptimo para tu peso y altura.</string>
+
+    <string name="error">Error</string>
+    <string name="no_imc">N/A</string>
+    <string name="no_imc_result">No IMC registrado</string>
+    <string name="no_imc_description">No se ha registrado ningún IMC para este usuario.</string>
+    <color name="default_text_color">#000000</color>
+
+    <string name="recipe_ensalada_pollo">
+    <![CDATA[
+    Ingredientes:\n
+    - 150 g de pechuga de pollo a la parrilla\n
+    - 2 tazas de mezcla de hojas verdes (espinaca, rúcula, lechuga)\n
+    - 1/2 aguacate\n
+    - 1/2 taza de tomates cherry\n
+    - 1/4 taza de cebolla roja en rodajas finas\n
+    - 1 cucharada de aceite de oliva\n
+    - 1 cucharada de jugo de limón\n
+    - Sal y pimienta al gusto\n\n
+
+    Instrucciones:\n
+    1. Preparar el pollo: Sazona la pechuga de pollo con sal y pimienta. Cocina a la parrilla a fuego medio hasta que esté bien cocido (aproximadamente 6-7 minutos por lado). Deja enfriar un poco y corta en tiras.\n
+    2. Ensamblar la ensalada: En un tazón grande, mezcla las hojas verdes, los tomates cherry cortados por la mitad, la cebolla roja y el aguacate cortado en cubos.\n
+    3. Añadir el pollo: Coloca las tiras de pollo a la parrilla sobre la ensalada.\n
+    4. Aliñar: En un tazón pequeño, mezcla el aceite de oliva y el jugo de limón. Rocía sobre la ensalada y mezcla bien.\n
+    5. Servir: Ajusta el sazón con sal y pimienta al gusto. Sirve de inmediato.\n
+    ]]>
+</string>
+
+    <string name="recipe_quinoa_vegetales">
+    <![CDATA[
+    Ingredientes:\n
+    - 1 taza de quinoa cocida\n
+    - 1/2 taza de zanahorias ralladas\n
+    - 1/2 taza de pepino en rodajas\n
+    - 1/2 taza de pimientos rojos en rodajas\n
+    - 1/4 taza de garbanzos cocidos\n
+    - 1/4 de aguacate en rodajas\n
+    - 1 cucharada de aceite de oliva\n
+    - 1 cucharada de vinagre de manzana\n
+    - Sal y pimienta al gusto\n\n
+
+    Instrucciones:\n
+    1. Preparar la quinoa: Cocina la quinoa según las instrucciones del paquete y deja enfriar.\n
+    2. Preparar los vegetales: Lava y corta las zanahorias, pepino, pimientos y aguacate.\n
+    3. Ensamblar el tazón: En un tazón grande, coloca la quinoa en la base y añade los vegetales preparados y los garbanzos.\n
+    4. Aliñar: En un tazón pequeño, mezcla el aceite de oliva y el vinagre de manzana. Vierte sobre el tazón de quinoa y vegetales.\n
+    5. Servir: Mezcla bien, ajusta el sazón con sal y pimienta al gusto, y sirve de inmediato.\n
+    ]]>
+</string>
+
+    <string name="recipe_smoothie_verde">
+    <![CDATA[
+    Ingredientes:\n
+    - 1 taza de espinaca fresca\n
+    - 1/2 plátano\n
+    - 1/2 manzana verde\n
+    - 1/2 taza de pepino\n
+    - 1 taza de agua de coco\n
+    - 1 cucharada de jugo de limón\n
+    - Hielo al gusto\n\n
+
+    Instrucciones:\n
+    1. Preparar los ingredientes: Lava bien la espinaca, el pepino y la manzana. Pela el plátano y el pepino (si prefieres).\n
+    2. Licuar: Coloca todos los ingredientes en la licuadora: espinaca, plátano, manzana, pepino, agua de coco, jugo de limón y hielo.\n
+    3. Mezclar: Licúa hasta obtener una mezcla suave y homogénea.\n
+    4. Servir: Vierte en un vaso y disfruta de inmediato.\n
+    ]]>
+</string>
+
+    <string name="recipe_salmon_horno">
+    <![CDATA[
+    Ingredientes:\n
+    - 150 g de filete de salmón\n
+    - 1 taza de espárragos frescos\n
+    - 1 cucharada de aceite de oliva\n
+    - 1 diente de ajo picado\n
+    - 1 cucharada de jugo de limón\n
+    - Sal y pimienta al gusto\n\n
+
+    Instrucciones:\n
+    1. Precalentar el horno: Precalienta el horno a 200°C (400°F).\n
+    2. Preparar el salmón y espárragos: Coloca el salmón en una bandeja para hornear y rodea con los espárragos. Rocía con aceite de oliva, ajo picado y jugo de limón.\n
+    3. Sazonar: Añade sal y pimienta al gusto.\n
+    4. Hornear: Hornea durante 15-20 minutos o hasta que el salmón esté bien cocido y los espárragos tiernos.\n
+    5. Servir: Sirve caliente y disfruta.\n
+    ]]>
+</string>
+
+    <string name="recipe_smoothie_avena">
+    <![CDATA[
+    Ingredientes:\n
+    - 1 taza de avena\n
+    - 1 plátano\n
+    - 1 taza de fresas\n
+    - 1 taza de leche entera\n
+    - 2 cucharadas de miel\n
+    - Hielo al gusto\n\n
+
+    Instrucciones:\n
+    1. Preparar los ingredientes: Pela el plátano y lava bien las fresas.\n
+    2. Licuar: Coloca todos los ingredientes en la licuadora: avena, plátano, fresas, leche, miel y hielo.\n
+    3. Mezclar: Licúa hasta obtener una mezcla suave y homogénea.\n
+    4. Servir: Vierte en un vaso grande y disfruta de inmediato.\n
+    ]]>
+</string>
+
+    <string name="recipe_pasta_pollo">
+    <![CDATA[
+    Ingredientes:\n
+    - 200 g de pasta fettuccine\n
+    - 200 g de pechuga de pollo\n
+    - 1 taza de crema de leche\n
+    - 1/2 taza de queso parmesano rallado\n
+    - 2 cucharadas de mantequilla\n
+    - 2 dientes de ajo picados\n
+    - Sal y pimienta al gusto\n\n
+
+    Instrucciones:\n
+    1. Cocinar la pasta: Cocina la pasta según las instrucciones del paquete. Escurre y reserva.\n
+    2. Preparar el pollo: Sazona la pechuga de pollo con sal y pimienta. Cocina en una sartén a fuego medio hasta que esté bien cocido. Corta en tiras.\n
+    3. Preparar la salsa Alfredo: En la misma sartén, derrite la mantequilla y añade el ajo picado. Cocina por 1 minuto. Agrega la crema de leche y deja que hierva a fuego lento. Añade el queso parmesano y mezcla bien hasta que se derrita.\n
+    4. Mezclar todo: Añade la pasta y el pollo a la sartén con la salsa Alfredo. Mezcla bien para que todo se integre.\n
+    5. Servir: Ajusta el sazón con sal y pimienta al gusto y sirve caliente.\n
+    ]]>
+</string>
+
+    <string name="recipe_hamburguesa_guacamole">
+    <![CDATA[
+    Ingredientes:\n
+    - 200 g de carne de res molida\n
+    - 1 pan de hamburguesa\n
+    - 1/2 aguacate\n
+    - 1/2 tomate en rodajas\n
+    - 1/4 cebolla en rodajas\n
+    - 1 taza de papas fritas\n
+    - Sal y pimienta al gusto\n
+    - Aceite para cocinar\n\n
+
+    Instrucciones:\n
+    1. Preparar la carne: Forma una hamburguesa con la carne molida y sazona con sal y pimienta.\n
+    2. Cocinar la hamburguesa: Cocina la carne en una sartén con un poco de aceite a fuego medio hasta que esté bien cocida por ambos lados.\n
+    3. Preparar el guacamole: Machaca el aguacate y sazona con sal y pimienta al gusto.\n
+    4. Ensamblar la hamburguesa: Coloca la carne en el pan de hamburguesa, añade el guacamole, las rodajas de tomate y cebolla.\n
+    5. Cocinar las papas: Fríe las papas en aceite caliente hasta que estén doradas y crujientes.\n
+    6. Servir: Sirve la hamburguesa con las papas fritas.\n
+    ]]>
+</string>
+
+    <string name="recipe_lasagna">
+    <![CDATA[
+    Ingredientes:\n
+    - 500 g de carne molida\n
+    - 12 láminas de pasta para lasagna\n
+    - 2 tazas de salsa de tomate\n
+    - 2 tazas de queso ricotta\n
+    - 2 tazas de queso mozzarella rallado\n
+    - 1 taza de queso parmesano rallado\n
+    - 1 cebolla picada\n
+    - 2 dientes de ajo picados\n
+    - 2 cucharadas de aceite de oliva\n
+    - Sal y pimienta al gusto\n\n
+
+    Instrucciones:\n
+    1. Preparar la carne: En una sartén grande, calienta el aceite de oliva y cocina la cebolla y el ajo hasta que estén dorados. Añade la carne molida, sazona con sal y pimienta, y cocina hasta que esté dorada.\n
+    2. Añadir la salsa: Agrega la salsa de tomate a la carne y deja cocinar a fuego lento durante 10 minutos.\n
+    3. Cocinar la pasta: Cocina las láminas de lasagna según las instrucciones del paquete. Escurre y reserva.\n
+    4. Ensamblar la lasagna: En una fuente para horno, coloca una capa de láminas de pasta, una capa de mezcla de carne, una capa de queso ricotta y una capa de mozzarella. Repite hasta terminar con una capa de pasta y espolvorea con queso parmesano.\n
+    5. Hornear: Precalienta el horno a 180°C (350°F) y hornea durante 30-40 minutos o hasta que el queso esté dorado y burbujeante.\n
+    6. Servir: Deja enfriar un poco antes de cortar y servir.\n
+    ]]>
+</string>
+
+</resources>
